@@ -4,7 +4,7 @@
     [
       {"type": 
     "Feature", 
-    "geometry": {"type": "Point", "coordinates": [42.29193, 24.9466, 0]}, 
+    "geometry": {"type": "Point", "coordinates": [10.29193, 50.9466, 0]}, 
     "properties": {
       "id": 1, 
       "disease": "Highly Path Avian influenza", 
@@ -20,7 +20,7 @@
 },
       {"type": 
        "Feature", 
-       "geometry": {"type": "Point", "coordinates": [42.2103, 24.8889, 0]}, 
+       "geometry": {"type": "Point", "coordinates": [12.2103, 45.8889, 0]}, 
        "properties": {
           "id": 2, 
           "disease": "Highly Path Avian influenza", 
