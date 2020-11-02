@@ -9,7 +9,8 @@
             "coordinates": [10.29193, 50.9466, 0]}, 
     "properties": {
       "id": 1, 
-      "disease": "Highly Path Avian influenza", 
+      "disease": "Highly Path Avian influenza",
+      "time":1560962164830,
       "country": "BGR", 
       "start": "1581894000000", 
       "end": 1582239600000, 
@@ -17,7 +18,7 @@
 },
       {"type": "Feature", "geometry": {"type": "Point", "coordinates": [12.2103, 45.8889, 0]}, 
 "properties": {
-  "id": 2, "disease": "Highly Path Avian influenza", "country": "BGR", "start": "1582498800000", "end": 1583794800000, 
+  "id": 2, "disease": "Highly Path Avian influenza", "time":1560960042110,"country": "BGR", "start": "1582498800000", "end": 1583794800000, 
   "city": "Plovdiv", "species": "Birds", "at_risk": 55437, "cases": 34, "deaths": 34, "preventive_killed": 55403}}
 
   ]
