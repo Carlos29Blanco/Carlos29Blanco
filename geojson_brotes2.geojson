@@ -8,9 +8,13 @@
             "type": "Point", 
             "coordinates": [24.9466, 42.29193, 0]}, 
     "properties": {"id": 1, "disease": "Highly Path Avian influenza", "country": "BGR", "time": "1581894000000", "end": 1582239600000, "city": "Plovdiv", "species": "Birds", "at_risk": 15729, "cases": 9899, "deaths": 9899, "preventive_killed": 5830}},
+      
     {"type": "Feature", "geometry": {"type": "Point", "coordinates": [24.8917, 42.352, 0]}, "properties": {"id": 3, "disease": "Highly Path Avian influenza", "country": "BGR", "time": "1582498800000", "end": 1583276400000, "city": "Plovdiv", "species": "Birds", "at_risk": 11600, "cases": 20, "deaths": 20, "preventive_killed": 11580}},
+      
     {"type": "Feature", "geometry": {"type": "Point", "coordinates": [24.8729, 42.2572, 0]}, "properties": {"id": 4, "disease": "Highly Path Avian influenza", "country": "BGR", "time": "1583103600000", "end": 1583622000000, "city": "Plovdiv", "species": "Birds", "at_risk": 5000, "cases": 20, "deaths": 0, "preventive_killed": 5000}},
+      
     {"type": "Feature", "geometry": {"type": "Point", "coordinates": [24.8889, 42.2103, 0]}, "properties": {"id": 2, "disease": "Highly Path Avian influenza", "country": "BGR", "time": "1582498800000", "end": 1583794800000, "city": "Plovdiv", "species": "Birds", "at_risk": 55437, "cases": 34, "deaths": 34, "preventive_killed": 55403}},
+      
     {"type": "Feature", "geometry": {"type": "Point", "coordinates": [25.0425, 42.244, 0]}, "properties": {"id": 5, "disease": "Highly Path Avian influenza", "country": "BGR", "time": "1583103600000", "end": 1583622000000, "city": "Plovdiv", "species": "Birds", "at_risk": 3620, "cases": 20, "deaths": 0, "preventive_killed": 3620}},
     {"type": "Feature", "geometry": {"type": "Point", "coordinates": [24.5319, 42.1248, 0]}, "properties": {"id": 6, "disease": "Highly Path Avian influenza", "country": "BGR", "time": "1583103600000", "end": 1583708400000, "city": "Plovdiv", "species": "Birds", "at_risk": 31322, "cases": 44, "deaths": 44, "preventive_killed": 31278}},
     {"type": "Feature", "geometry": {"type": "Point", "coordinates": [25.54164, 41.67922, 0]}, "properties": {"id": 7, "disease": "Highly Path Avian influenza", "country": "BGR", "time": "1583362800000", "end": 1583708400000, "city": "Kardzali", "species": "Birds", "at_risk": 16800, "cases": 225, "deaths": 225, "preventive_killed": 16575}},
