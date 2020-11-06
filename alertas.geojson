@@ -9,7 +9,7 @@
         "id": 1,
         "riskLevel": 0,
         "number_of_cases": 80,
-        "time": 1582000241,
+        "time": 1582000241000,
         "endDate": 1704512931,
         "codeSpecies": 1840,
         "species": "Anas crecca",
