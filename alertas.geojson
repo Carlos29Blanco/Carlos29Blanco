@@ -10,7 +10,7 @@
         "riskLevel": 0,
         "number_of_cases": 80,
         "start": 1582000241000,
-        "endDate": 1704512931,
+        "endDate": 1704512931000,
         "codeSpecies": 1840,
         "species": "Anas crecca",
         "commonName": "Pato cuchara",
