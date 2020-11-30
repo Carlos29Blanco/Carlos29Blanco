@@ -18,7 +18,7 @@
          },
          "properties":{
             "idBrote":1,
-            "idAlerta":"SP01059",
+            "idComarcas":"SP01059",
             "startDate": 1605556943000
          }
       },
@@ -39,7 +39,7 @@
          },
          "properties":{
             "idBrote":2,
-            "idAlerta":"SP02003",
+            "idComarcas":"SP02003",
             "startDate": 1604952143000
          }
       },
@@ -60,7 +60,7 @@
          },
          "properties":{
             "idBrote":3,
-            "idAlerta":"SP02008",
+            "idComarcas":"SP02008",
             "startDate": 1604347343000
          }
       },
@@ -81,7 +81,7 @@
          },
          "properties":{
             "idBrote":4,
-            "idAlerta":"SP02009",
+            "idComarcas":"SP02009",
             "startDate": 1603742543000
          }
       },
@@ -102,7 +102,7 @@
          },
          "properties":{
             "idBrote":5,
-            "idAlerta":"SP02012",
+            "idComarcas":"SP02012",
             "startDate": 1603137743000
          }
       },
@@ -123,7 +123,7 @@
          },
          "properties":{
             "idBrote":6,
-            "idAlerta":"SP02024",
+            "idComarcas":"SP02024",
             "startDate": 1602532943000
          }
       },
@@ -144,7 +144,7 @@
          },
          "properties":{
             "idBrote":7,
-            "idAlerta":"SP02030",
+            "idComarcas":"SP02030",
             "startDate": 1601928143000
          }
       },
@@ -165,7 +165,7 @@
          },
          "properties":{
             "idBrote":8,
-            "idAlerta":"SP02037",
+            "idComarcas":"SP02037",
             "startDate": 1601323343000
          }
       },
@@ -186,7 +186,7 @@
          },
          "properties":{
             "idBrote":9,
-            "idAlerta":"SP02039",
+            "idComarcas":"SP02039",
             "startDate": 1600718543000
          }
       },
@@ -207,7 +207,7 @@
          },
          "properties":{
             "idBrote":10,
-            "idAlerta":"SP02069",
+            "idComarcas":"SP02069",
             "startDate": 1600113743000
          }
       },
@@ -228,7 +228,7 @@
          },
          "properties":{
             "idBrote":11,
-            "idAlerta":"SP02081",
+            "idComarcas":"SP02081",
             "startDate": 1599508943000
          }
       },
@@ -249,7 +249,7 @@
          },
          "properties":{
             "idBrote":11,
-            "idAlerta":"SP02081",
+            "idComarcas":"SP02081",
             "startDate": 1598904143000
          }
       },
@@ -270,7 +270,7 @@
          },
          "properties":{
             "idBrote":11,
-            "idAlerta":"SP02081",
+            "idComarcas":"SP02081",
             "startDate": 1599508943000
          }
       },
@@ -291,7 +291,7 @@
          },
          "properties":{
             "idBrote":11,
-            "idAlerta":"SP02081",
+            "idComarcas":"SP02081",
             "startDate": 1598904143000
          }
       }
