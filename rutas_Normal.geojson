@@ -19,7 +19,7 @@
          "properties":{
             "idBrote":1,
             "idComarcas":"SP01059",
-             "origen":"Poltavka, Rusia"
+             "destino":"ARABA-ALAVA, Álava"
          }
       },
       {
@@ -40,7 +40,7 @@
          "properties":{
             "idBrote":2,
             "idComarcas":"SP01059",
-             "origen":"Sitnikevo, Rusia"
+             "destino":"ARABA-ALAVA, Álava"
          }
       },
       {
@@ -61,7 +61,7 @@
          "properties":{
             "idBrote":3,
             "idComarcas":"SP01059",
-             "origen":"Sitnikevo, Rusia"
+             "destino":"ARABA-ALAVA, Álava"
          }
       },
       {
@@ -82,7 +82,7 @@
          "properties":{
             "idBrote":4,
             "idComarcas":"SP01059",
-            "origen":"Kolmakovo, Rusia"
+            "destino":"ARABA-ALAVA, Álava"
             
          }
       },
@@ -104,7 +104,7 @@
          "properties":{
             "idBrote":5,
             "idComarcas":"SP01059",
-            "origen":"Shipunovo, Rusia"
+            "destino":"ARABA-ALAVA, Álava"
          }
       },
       {
@@ -125,7 +125,7 @@
          "properties":{
             "idBrote":6,
             "idComarcas":"SP02024",
-            "origen":"Sitnikevo, Rusia"
+            "destino":"CASAS IBAÑEZ, Albacete"
          }
       },
       {
@@ -146,7 +146,7 @@
          "properties":{
             "idBrote":7,
             "idComarcas":"SP02030",
-            "origen":"Sitnikevo, Rusia"
+            "destino":"ELCHE DE LA SIERRA, Albacete"
          }
       },
       {
@@ -167,7 +167,7 @@
          "properties":{
             "idBrote":8,
             "idComarcas":"SP02037",
-            "origen":"Sitnikevo, Rusia"
+            "destino":"HELLÍN, Albacete"
          }
       },
       {
@@ -188,7 +188,7 @@
          "properties":{
             "idBrote":9,
             "idComarcas":"SP02039",
-            "origen":"Sitnikevo, Rusia"
+            "destino":"HIGUERUELA, Albacete"
          }
       },
       {
@@ -209,7 +209,7 @@
          "properties":{
             "idBrote":10,
             "idComarcas":"SP02069",
-            "origen":"Sitnikevo, Rusia"
+            "destino":"LA RODA, Albacete"
          }
       },
       {
@@ -230,7 +230,7 @@
          "properties":{
             "idBrote":11,
             "idComarcas":"SP02081",
-            "origen":"Sitnikevo, Rusia"
+            "destino":"VILLARROBLEDO, Albacete"
          }
       }
    ]
