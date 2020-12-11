@@ -18,7 +18,8 @@
          },
          "properties":{
             "idBrote":1,
-            "idComarcas":"SP01059"
+            "idComarcas":"SP01059",
+             "origen":"Poltavka, Rusia"
          }
       },
       {
@@ -38,7 +39,8 @@
          },
          "properties":{
             "idBrote":2,
-            "idComarcas":"SP01059"
+            "idComarcas":"SP01059",
+             "origen":"Sitnikevo, Rusia"
          }
       },
       {
@@ -58,7 +60,8 @@
          },
          "properties":{
             "idBrote":3,
-            "idComarcas":"SP01059"
+            "idComarcas":"SP01059",
+             "origen":"Sitnikevo, Rusia"
          }
       },
       {
@@ -78,7 +81,9 @@
          },
          "properties":{
             "idBrote":4,
-            "idComarcas":"SP01059"
+            "idComarcas":"SP01059",
+            "origen":"Kolmakovo, Rusia"
+            
          }
       },
       {
@@ -98,7 +103,8 @@
          },
          "properties":{
             "idBrote":5,
-            "idComarcas":"SP01059"
+            "idComarcas":"SP01059",
+            "origen":"Shipunovo, Rusia"
          }
       },
       {
@@ -118,7 +124,8 @@
          },
          "properties":{
             "idBrote":6,
-            "idComarcas":"SP02024"
+            "idComarcas":"SP02024",
+            "origen":"Sitnikevo, Rusia"
          }
       },
       {
@@ -138,7 +145,8 @@
          },
          "properties":{
             "idBrote":7,
-            "idComarcas":"SP02030"
+            "idComarcas":"SP02030",
+            "origen":"Sitnikevo, Rusia"
          }
       },
       {
@@ -158,7 +166,8 @@
          },
          "properties":{
             "idBrote":8,
-            "idComarcas":"SP02037"
+            "idComarcas":"SP02037",
+            "origen":"Sitnikevo, Rusia"
          }
       },
       {
@@ -178,7 +187,8 @@
          },
          "properties":{
             "idBrote":9,
-            "idComarcas":"SP02039"
+            "idComarcas":"SP02039",
+            "origen":"Sitnikevo, Rusia"
          }
       },
       {
@@ -198,7 +208,8 @@
          },
          "properties":{
             "idBrote":10,
-            "idComarcas":"SP02069"
+            "idComarcas":"SP02069",
+            "origen":"Sitnikevo, Rusia"
          }
       },
       {
@@ -218,7 +229,8 @@
          },
          "properties":{
             "idBrote":11,
-            "idComarcas":"SP02081"
+            "idComarcas":"SP02081",
+            "origen":"Sitnikevo, Rusia"
          }
       }
    ]
