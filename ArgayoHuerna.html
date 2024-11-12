@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Argayo en la autopista del Huerna ap-66 Asturias</title>
+
+    <link href="https://js.arcgis.com/4.31/esri/themes/light/main.css" rel="stylesheet" type="text/css" />
+    <script src="https://js.arcgis.com/4.31/"></script>
+
+    <script>
+        require([
+            "esri/views/SceneView",
+            "esri/Map",
+            "esri/layers/GeoJSONLayer",
+            "esri/widgets/Home",
+            "esri/widgets/BasemapGallery",
+            "esri/widgets/Expand",
+            "esri/renderers/UniqueValueRenderer",
+            "esri/symbols/LineSymbol3D",
+            "esri/symbols/LineSymbol3DLayer"
+        ], (SceneView, Map, GeoJSONLayer, Home, BasemapGallery, Expand, UniqueValueRenderer, LineSymbol3D, LineSymbol3DLayer) => {
+
+            // Definimos el mapa con el basemap de Imagery Hybrid
+            const map = new Map({
+                basemap: "hybrid", // Basemap de tipo híbrido de imágenes satelitales
+                ground: "world-elevation"
+            });
+
+            // Definimos la vista en 3D centrada en el Km 76 de la AP-66 con vista hacia el sureste
+            const view = new SceneView({
+                container: "viewDiv",
+                map: map,
+                camera: {
+                    position: {
+                        latitude: 43.036334, // Latitud del Km 76 de la AP-66
+                        longitude: -5.833734, // Longitud del Km 76 de la AP-66
+                        z: 1800 // Altura del zoom
+                    },
+                    tilt: 60,
+                    heading: 135 // Orientación hacia el sureste (135 grados)
+                }
+            });
+
+            // Capa de ríos desde el GeoJSON
+            const geojsonUrl = "https://raw.githubusercontent.com/Carlos29Blanco/Carlos29Blanco/refs/heads/master/EntreRegueras.geojson";
+
+            const riversLayer = new GeoJSONLayer({
+                url: geojsonUrl
+            });
+
+            // Simbología para los ríos según el campo "problema"
+            const riverRenderer = new UniqueValueRenderer({
+                field: "problema", // Campo para simbolizar
+                defaultSymbol: new LineSymbol3D({
+                    symbolLayers: [
+                        new LineSymbol3DLayer({
+                            material: { color: [0, 100, 255] }, // Color azul para el valor "No"
+                            size: "2px"
+                        })
+                    ]
+                }),
+                uniqueValueInfos: [
+                    {
+                        value: "Si", // Color rojo para el valor "Si"
+                        symbol: new LineSymbol3D({
+                            symbolLayers: [
+                                new LineSymbol3DLayer({
+                                    material: { color: [255, 0, 0] }, // Rojo
+                                    size: "2px"
+                                })
+                            ]
+                        })
+                    }
+                ]
+            });
+
+            riversLayer.renderer = riverRenderer;
+
+            // Añadir la capa de ríos al mapa
+            map.add(riversLayer);
+
+            // Agregar el widget de Home
+            const homeWidget = new Home({
+                view: view
+            });
+            view.ui.add(homeWidget, "top-left");
+
+            // Agregar el widget de Basemap Gallery dentro de un Expand
+            const basemapGallery = new BasemapGallery({
+                view: view
+            });
+
+            const basemapGalleryExpand = new Expand({
+                view: view,
+                content: basemapGallery,
+                expandIconClass: "esri-icon-basemap", // Ícono del expandible
+                expandTooltip: "Show Basemap Gallery"
+            });
+
+            view.ui.add(basemapGalleryExpand, "top-right");
+
+            // Leyenda personalizada
+            view.ui.add("legend", "manual");
+
+        });
+    </script>
+    <style>
+        html,
+        body,
+        #viewDiv {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        .container {
+            padding: 5px;
+            bottom: 16px;
+            width: auto;
+            min-width: 680px;
+            max-width: 99vw;
+            margin-bottom: 10px;
+            display: flex;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        .legend-item {
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="viewDiv"></div>
+    <div id="legend" class="esri-widget container">
+        <div class="legend-section">
+            <div class="title">Argayo en la autopista del Huerna app-66</div>
+            <div class="legend-section-items">
+                <div class="legend-item">
+                    <div class="symbol" id="riverSymbol"></div>
+                    <div class="legend-item-title">En esta escena local podemos ver la reguera (en color rojo) que pudo causar el Argayo</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
